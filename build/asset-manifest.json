@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9afd7a6a.css",
+    "main.js": "/static/js/main.b599fac7.js",
+    "static/media/Smartanom.png": "/static/media/Smartanom.fb02b107439749ae1000.png",
+    "static/media/Profile.jpg": "/static/media/Profile.4719e80d79e3a8610094.jpg",
+    "static/media/bacground.jpg": "/static/media/bacground.78445edafc15d5b1590b.jpg",
+    "static/media/Villarta_Ariel_Resume.pdf": "/static/media/Villarta_Ariel_Resume.e5d088b338e563003f64.pdf",
+    "index.html": "/index.html",
+    "main.9afd7a6a.css.map": "/static/css/main.9afd7a6a.css.map",
+    "main.b599fac7.js.map": "/static/js/main.b599fac7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9afd7a6a.css",
+    "static/js/main.b599fac7.js"
+  ]
+}
