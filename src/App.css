@@ -1,0 +1,29 @@
+.app {
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.app.light-mode {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+}
+
+.app.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .app {
+    padding: 0;
+  }
+}
