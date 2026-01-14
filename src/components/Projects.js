@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import smartTanomImage from '../Smartanom.png';
+import webUIImage from '../WebUI.png';
 
 function Projects() {
   const projects = [
@@ -13,7 +14,8 @@ function Projects() {
         'Contributed to system requirements, documentation, analysis, and investment support.'
       ],
       tags: ['IoT', 'Hydroponics', 'Monitoring System', 'Documentation'],
-      image: smartTanomImage
+      image: smartTanomImage,
+      link: 'https://smartanom.me/'
     },
     {
       id: 2,
@@ -24,7 +26,9 @@ function Projects() {
         'Created simple layouts and components following basic UI/UX principles.',
         'Implemented basic interactivity such as form handling, button actions, and input validation.'
       ],
-      tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'UI/UX']
+      tags: ['HTML', 'CSS', 'JavaScript', 'Responsive Design', 'UI/UX'],
+      image: webUIImage,
+      link: 'https://fanpage-brown.vercel.app/'
     }
   ];
 
@@ -55,6 +59,11 @@ function Projects() {
                   <span key={index} className="tag">{tag}</span>
                 ))}
               </div>
+              {project.link && (
+                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                  Visit Project
+                </a>
+              )}
             </div>
           ))}
         </div>
