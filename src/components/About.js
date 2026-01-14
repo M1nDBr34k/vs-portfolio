@@ -41,20 +41,20 @@ function About() {
 
               <div className="info-box">
                 <div className="info-icon focus-icon">💻</div>
-                <h4>Technical Focus</h4>
-                <p>Front-end development with responsive and user-friendly web applications.</p>
+                <h4>Technical Interests</h4>
+                <p>Designing and building responsive, user-friendly web interfaces.</p>
               </div>
 
               <div className="info-box">
                 <div className="info-icon passion-icon">❤️</div>
-                <h4>Passion</h4>
-                <p>Continuous learning and staying current with modern web technologies.</p>
+                <h4>Eagerness to learn</h4>
+                <p>Continuously improving skills and keeping up with the latest web technologies.</p>
               </div>
 
               <div className="info-box">
                 <div className="info-icon goal-icon">🎯</div>
-                <h4>Goal</h4>
-                <p>Growing as a developer and contributing to meaningful projects.</p>
+                <h4>Career Objective</h4>
+                <p>Developing skills while contributing to impactful and meaningful projects.</p>
               </div>
             </div>
 
